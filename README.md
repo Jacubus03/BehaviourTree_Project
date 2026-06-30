@@ -3,9 +3,10 @@ Simple spider AI with procedural animation
 
 ## Description:
 Spider has three main states:
-- Patrol – roams to random positions within a defined range
-- Chase – after detecting the player within detection radius, spider moves toward the player
-- Attack – when in attack range, spider deals damage and waits for cooldown before attacking again
+- Patrol – roams to random positions within a defined range.
+- Chase – after detecting the player within detection radius, spider moves toward the player.
+- Attack – when in attack range, spider deals damage and waits for cooldown before attacking again.
+
 Procedural animation is driven by per-leg movement cycles. Each leg dynamically adjusts its position using ground detection and is placed on surrounding terrain while the spider moves, resulting in fully procedural locomotion without baked animations.
 
 ## Architecture
